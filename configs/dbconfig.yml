@@ -1,0 +1,18 @@
+# DEFAULT
+default-factories:
+  dialect: postgres
+  datasource: user=postgres dbname=postgres sslmode=disable
+  dir: db/factories
+  table: factories
+
+default-migrations:
+  dialect: postgres
+  datasource: user=postgres dbname=postgres sslmode=disable
+  dir: db/migrations
+  table: migrations
+
+default-seeds:
+  dialect: postgres
+  datasource: user=postgres dbname=postgres sslmode=disable
+  dir: db/seeds
+  table: seeds

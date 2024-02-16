@@ -1,0 +1,14 @@
+{
+  "name": "golang example",
+  "profile": "debug",
+  "version": "31.7.2022.1",
+  "port": "8081",
+  "postgres.host": "localhost",
+  "postgres.username": "postgres",
+  "postgres.password": "",
+  "postgres.database": "postgres",
+  "postgres.port": "5432",
+  "postgres.schema": "public",
+  "path": "/Users/ciazhar/backend/storage/",
+  "jwt.key": "ThisIsSecretForJWTHS512SignatureAlgorithmThatMUSTHave512bitsKeySize"
+}
